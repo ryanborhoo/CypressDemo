@@ -1,0 +1,26 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "Automate E2E testing for an E-commerce website",
+  "main": "index.js",
+  "directories": {
+    "test": "cypress/test"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no cypress/test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanborhoo/CypressDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanborhoo/CypressDemo/issues"
+  },
+  "homepage": "https://github.com/ryanborhoo/CypressDemo#readme",
+  "dependencies": {
+    "@testing-library/cypress": "^7.0.0",
+    "cypress": "^5.1.0"
+  }
+}
